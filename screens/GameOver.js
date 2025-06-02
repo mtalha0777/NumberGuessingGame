@@ -3,20 +3,7 @@ import Title from "../components/ui/Title";
 import Colors from "../constants/colors";
 import PrimaryButton from "../components/ui/PrimaryButton";
 import * as Animatable from 'react-native-animatable';
-// function GameOver({roundNumber, userNumber,onStartNewGame}){
-// return <View style={styles.rootContainer}>
-// <Title>Game Over Bro!</Title>
-// <View style={styles.imageContainer}>
-// <Image style={styles.image} source={require('../assets/images/success.png')}/>
-// </View>
 
-
-//     <Text style={styles.summaryText}>Your Nokia G20 Phone needed <Text style={styles.highlight}> {roundNumber}</Text> rounds to guess the number <Text style={styles.highlight}> {userNumber}</Text> </Text>
-    
-// <PrimaryButton onPress={onStartNewGame}>Start New Game</PrimaryButton>
-//     </View>
-
-// }
 function GameOver({ roundNumber, userNumber, onStartNewGame }) {
   return (
     <View style={styles.rootContainer}>
